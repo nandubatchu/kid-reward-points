@@ -1,0 +1,14 @@
+:root[data-theme=soft]{--hero-card:#d8f5ef;--hero-edge:#8bc5bb;--hero-ink:#173747}
+:root[data-theme=soft] .hero-stage{background:radial-gradient(circle at 80% 25%,#c4f3ec,transparent 55%),linear-gradient(145deg,#e5f6f2,#c9e9e5);border-color:#7bc4bd;box-shadow:0 16px 35px #80ada83d}
+:root[data-theme=soft] .hero-stage__kicker,:root[data-theme=soft] .hero-home__eyebrow,:root[data-theme=soft] .hero-label{color:#218b84}
+:root[data-theme=soft] .hero-stage h1{color:#204856;text-shadow:none}:root[data-theme=soft] .hero-stage h1 em{color:#c47f27;text-shadow:none}:root[data-theme=soft] .hero-stage p{color:#457179}
+:root[data-theme=soft] .hero-stage__seal{color:#d69b36}:root[data-theme=soft] .hero-stage__floor{background:radial-gradient(ellipse,#76c5b799,transparent 65%)}
+:root[data-theme=soft] .hero-balance{background:linear-gradient(135deg,#428c8c,#70b9a9);border-color:#4f9f97;box-shadow:0 14px 28px #7ab8ae4a}
+:root[data-theme=soft] .hero-balance__top,:root[data-theme=soft] .hero-balance__value,:root[data-theme=soft] .hero-balance__footer,:root[data-theme=soft] .hero-balance__footer span:first-child{color:white}
+:root[data-theme=soft] .hero-balance__value small{color:#fff0ad}:root[data-theme=soft] .hero-balance__live{color:#e6fff9}
+:root[data-theme=soft] .hero-action--earn{background:#e1f6ee;border-color:#96d6ca;color:#214b4e}:root[data-theme=soft] .hero-action--redeem{background:#fff0e8;border-color:#edc6b3;color:#5a4441}
+:root[data-theme=soft] .hero-action__copy small{color:#228d83}:root[data-theme=soft] .hero-action--redeem .hero-action__copy small{color:#bb7363}:root[data-theme=soft] .hero-action__copy>span,:root[data-theme=soft] .hero-action b{color:#62777b}
+:root[data-theme=soft] .hero-progress,:root[data-theme=soft] .hero-recent__item,:root[data-theme=soft] .earn-celebration__balance{background:white;border-color:#dce8e4;box-shadow:0 12px 30px #a8c0b321}
+:root[data-theme=soft] .hero-progress h2,:root[data-theme=soft] .hero-recent__item strong{color:#254149}:root[data-theme=soft] .hero-progress p,:root[data-theme=soft] .hero-progress__foot,:root[data-theme=soft] .hero-recent__item small{color:#71878d}
+:root[data-theme=soft] .hero-recent__icon{background:#e4f6ef;color:#258f82;border-color:#bde2d8}:root[data-theme=soft] .hero-recent__icon.is-redeem{background:#fff0e3;color:#bf8063;border-color:#f1d0be}
+:root[data-theme=soft] .earn-celebration h1 em,:root[data-theme=soft] .earn-celebration__points,:root[data-theme=soft] .earn-celebration__balance strong{color:#c9943d}

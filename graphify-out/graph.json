@@ -9,7 +9,7 @@
       "source_file": "vite.config.ts",
       "source_location": "L1",
       "id": "vite_config_ts",
-      "community": 13,
+      "community": 16,
       "norm_label": "vite.config.ts"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L1",
       "id": "src_repository_ts",
-      "community": 3,
+      "community": 0,
       "norm_label": "repository.ts"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L3",
       "id": "src_repository_snapshot",
-      "community": 1,
+      "community": 2,
       "norm_label": "snapshot"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L4",
       "id": "src_repository_repository",
-      "community": 1,
+      "community": 2,
       "norm_label": "repository"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L5",
       "id": "src_repository_demorepository",
-      "community": 0,
+      "community": 3,
       "norm_label": "demorepository"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L8",
       "id": "src_repository_demorepository_read",
-      "community": 0,
+      "community": 3,
       "norm_label": ".read()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L9",
       "id": "src_repository_demorepository_updatechildname",
-      "community": 0,
+      "community": 3,
       "norm_label": ".updatechildname()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L10",
       "id": "src_repository_demorepository_commit",
-      "community": 0,
+      "community": 3,
       "norm_label": ".commit()"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L14",
       "id": "src_repository_config",
-      "community": 3,
+      "community": 0,
       "norm_label": "config"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L15",
       "id": "src_repository_googleconfigured",
-      "community": 2,
+      "community": 0,
       "norm_label": "googleconfigured"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L16",
       "id": "src_repository_tokenclient",
-      "community": 3,
+      "community": 0,
       "norm_label": "tokenclient"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L17",
       "id": "src_repository_window",
-      "community": 3,
+      "community": 0,
       "norm_label": "window"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L19",
       "id": "src_repository_loadscript",
-      "community": 3,
+      "community": 0,
       "norm_label": "loadscript()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L20",
       "id": "src_repository_authorize",
-      "community": 3,
+      "community": 0,
       "norm_label": "authorize()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L25",
       "id": "src_repository_disconnect",
-      "community": 3,
+      "community": 0,
       "norm_label": "disconnect()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L26",
       "id": "src_repository_connected",
-      "community": 2,
+      "community": 1,
       "norm_label": "connected()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L34",
       "id": "src_repository_pickspreadsheet",
-      "community": 3,
+      "community": 0,
       "norm_label": "pickspreadsheet()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L54",
       "id": "src_repository_sheetsrepository",
-      "community": 0,
+      "community": 3,
       "norm_label": "sheetsrepository"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L55",
       "id": "src_repository_sheetsrepository_constructor",
-      "community": 0,
+      "community": 3,
       "norm_label": ".constructor()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L56",
       "id": "src_repository_sheetsrepository_updatechildname",
-      "community": 0,
+      "community": 3,
       "norm_label": ".updatechildname()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L63",
       "id": "src_repository_sheetsrepository_read",
-      "community": 0,
+      "community": 3,
       "norm_label": ".read()"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L73",
       "id": "src_repository_sheetsrepository_commit",
-      "community": 0,
+      "community": 3,
       "norm_label": ".commit()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L87",
       "id": "src_repository_readlegacyrows",
-      "community": 3,
+      "community": 0,
       "norm_label": "readlegacyrows()"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L94",
       "id": "src_repository_legacydate",
-      "community": 3,
+      "community": 0,
       "norm_label": "legacydate()"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L102",
       "id": "src_repository_parselegacyrows",
-      "community": 3,
+      "community": 0,
       "norm_label": "parselegacyrows()"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L125",
       "id": "src_repository_safelegacy",
-      "community": 3,
+      "community": 0,
       "norm_label": "safelegacy()"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "src/pin.test.ts",
       "source_location": "L1",
       "id": "src_pin_test_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "pin.test.ts"
     },
     {
@@ -279,7 +279,7 @@
       "source_file": "src/pin.test.ts",
       "source_location": "L3",
       "id": "src_pin_test_data",
-      "community": 1,
+      "community": 2,
       "norm_label": "data"
     },
     {
@@ -324,79 +324,79 @@
       "source_file": "src/main.tsx",
       "source_location": "L1",
       "id": "src_main_tsx",
-      "community": 2,
+      "community": 1,
       "norm_label": "main.tsx"
     },
     {
       "label": "Screen",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L10",
+      "source_location": "L20",
       "id": "src_main_screen",
-      "community": 2,
+      "community": 1,
       "norm_label": "screen"
     },
     {
       "label": "Kind",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L11",
+      "source_location": "L21",
       "id": "src_main_kind",
-      "community": 2,
+      "community": 1,
       "norm_label": "kind"
     },
     {
       "label": "demo",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L20",
+      "source_location": "L30",
       "id": "src_main_demo",
-      "community": 2,
+      "community": 1,
       "norm_label": "demo"
     },
     {
       "label": "App()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L21",
+      "source_location": "L31",
       "id": "src_main_app",
-      "community": 2,
+      "community": 1,
       "norm_label": "app()"
     },
     {
       "label": "message()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L82",
+      "source_location": "L93",
       "id": "src_main_message",
-      "community": 2,
+      "community": 1,
       "norm_label": "message()"
     },
     {
       "label": "Back()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L83",
+      "source_location": "L94",
       "id": "src_main_back",
-      "community": 2,
+      "community": 1,
       "norm_label": "back()"
     },
     {
       "label": "Activity()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L84",
+      "source_location": "L95",
       "id": "src_main_activity",
-      "community": 2,
+      "community": 1,
       "norm_label": "activity()"
     },
     {
       "label": "LegacyPreview()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L85",
+      "source_location": "L96",
       "id": "src_main_legacypreview",
-      "community": 2,
+      "community": 1,
       "norm_label": "legacypreview()"
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "src/ledger.ts",
       "source_location": "L1",
       "id": "src_ledger_transaction",
-      "community": 1,
+      "community": 2,
       "norm_label": "transaction"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "src/ledger.ts",
       "source_location": "L15",
       "id": "src_ledger_validamount",
-      "community": 2,
+      "community": 1,
       "norm_label": "validamount()"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "src/ledger.ts",
       "source_location": "L27",
       "id": "src_ledger_torow",
-      "community": 0,
+      "community": 3,
       "norm_label": "torow()"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "src/approval.test.ts",
       "source_location": "L1",
       "id": "src_approval_test_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "approval.test.ts"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "src/approval.test.ts",
       "source_location": "L6",
       "id": "src_approval_test_data",
-      "community": 1,
+      "community": 2,
       "norm_label": "data"
     },
     {
@@ -522,7 +522,7 @@
       "source_file": "src/approval.test.ts",
       "source_location": "L8",
       "id": "src_approval_test_tx",
-      "community": 1,
+      "community": 2,
       "norm_label": "tx"
     },
     {
@@ -531,7 +531,7 @@
       "source_file": "src/approval.test.ts",
       "source_location": "L9",
       "id": "src_approval_test_snapshot",
-      "community": 1,
+      "community": 2,
       "norm_label": "snapshot"
     },
     {
@@ -540,7 +540,7 @@
       "source_file": "src/approval.test.ts",
       "source_location": "L12",
       "id": "src_approval_test_commit",
-      "community": 1,
+      "community": 2,
       "norm_label": "commit"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "src/vite-env.d.ts",
       "source_location": "L1",
       "id": "src_vite_env_d_ts",
-      "community": 14,
+      "community": 17,
       "norm_label": "vite-env.d.ts"
     },
     {
@@ -558,7 +558,7 @@
       "source_file": "src/storage.test.ts",
       "source_location": "L1",
       "id": "src_storage_test_ts",
-      "community": 2,
+      "community": 10,
       "norm_label": "storage.test.ts"
     },
     {
@@ -567,7 +567,7 @@
       "source_file": "src/storage.test.ts",
       "source_location": "L3",
       "id": "src_storage_test_fakestorage",
-      "community": 2,
+      "community": 10,
       "norm_label": "fakestorage()"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "src/storage.test.ts",
       "source_location": "L9",
       "id": "src_storage_test_storage",
-      "community": 2,
+      "community": 10,
       "norm_label": "storage"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "src/approval.ts",
       "source_location": "L1",
       "id": "src_approval_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "approval.ts"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "src/approval.ts",
       "source_location": "L5",
       "id": "src_approval_commitwithpin",
-      "community": 1,
+      "community": 2,
       "norm_label": "commitwithpin()"
     },
     {
@@ -603,7 +603,7 @@
       "source_file": "src/mock.ts",
       "source_location": "L1",
       "id": "src_mock_ts",
-      "community": 3,
+      "community": 0,
       "norm_label": "mock.ts"
     },
     {
@@ -612,7 +612,7 @@
       "source_file": "src/mock.ts",
       "source_location": "L2",
       "id": "src_mock_mockrows",
-      "community": 3,
+      "community": 0,
       "norm_label": "mockrows"
     },
     {
@@ -621,7 +621,7 @@
       "source_file": "src/storage.ts",
       "source_location": "L1",
       "id": "src_storage_ts",
-      "community": 2,
+      "community": 10,
       "norm_label": "storage.ts"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "src/storage.ts",
       "source_location": "L1",
       "id": "src_storage_storagekeys",
-      "community": 2,
+      "community": 10,
       "norm_label": "storagekeys"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "src/storage.ts",
       "source_location": "L9",
       "id": "src_storage_previouskeys",
-      "community": 2,
+      "community": 10,
       "norm_label": "previouskeys"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "src/storage.ts",
       "source_location": "L17",
       "id": "src_storage_migratestoredsettings",
-      "community": 2,
+      "community": 10,
       "norm_label": "migratestoredsettings()"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "src/pin.ts",
       "source_location": "L1",
       "id": "src_pin_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "pin.ts"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "src/pin.ts",
       "source_location": "L5",
       "id": "src_pin_recordv1",
-      "community": 1,
+      "community": 2,
       "norm_label": "recordv1"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "src/pin.ts",
       "source_location": "L7",
       "id": "src_pin_hex",
-      "community": 1,
+      "community": 2,
       "norm_label": "hex()"
     },
     {
@@ -684,7 +684,7 @@
       "source_file": "src/pin.ts",
       "source_location": "L8",
       "id": "src_pin_bytes",
-      "community": 1,
+      "community": 2,
       "norm_label": "bytes()"
     },
     {
@@ -693,7 +693,7 @@
       "source_file": "src/pin.ts",
       "source_location": "L9",
       "id": "src_pin_stored",
-      "community": 1,
+      "community": 2,
       "norm_label": "stored()"
     },
     {
@@ -702,7 +702,7 @@
       "source_file": "src/pin.ts",
       "source_location": "L20",
       "id": "src_pin_pinconfigured",
-      "community": 1,
+      "community": 2,
       "norm_label": "pinconfigured()"
     },
     {
@@ -711,7 +711,7 @@
       "source_file": "src/pin.ts",
       "source_location": "L21",
       "id": "src_pin_hashpin",
-      "community": 1,
+      "community": 2,
       "norm_label": "hashpin()"
     },
     {
@@ -720,7 +720,7 @@
       "source_file": "src/pin.ts",
       "source_location": "L26",
       "id": "src_pin_verifypin",
-      "community": 1,
+      "community": 2,
       "norm_label": "verifypin()"
     },
     {
@@ -729,8 +729,242 @@
       "source_file": "src/pin.ts",
       "source_location": "L34",
       "id": "src_pin_savepin",
-      "community": 1,
+      "community": 2,
       "norm_label": "savepin()"
+    },
+    {
+      "label": "AnimatedCount.tsx",
+      "file_type": "code",
+      "source_file": "src/components/AnimatedCount.tsx",
+      "source_location": "L1",
+      "id": "src_components_animatedcount_tsx",
+      "community": 5,
+      "norm_label": "animatedcount.tsx"
+    },
+    {
+      "label": "format()",
+      "file_type": "code",
+      "source_file": "src/components/AnimatedCount.tsx",
+      "source_location": "L4",
+      "id": "components_animatedcount_format",
+      "community": 5,
+      "norm_label": "format()"
+    },
+    {
+      "label": "AnimatedCount()",
+      "file_type": "code",
+      "source_file": "src/components/AnimatedCount.tsx",
+      "source_location": "L6",
+      "id": "components_animatedcount_animatedcount",
+      "community": 5,
+      "norm_label": "animatedcount()"
+    },
+    {
+      "label": "RewardCelebration.tsx",
+      "file_type": "code",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L1",
+      "id": "src_components_rewardcelebration_tsx",
+      "community": 5,
+      "norm_label": "rewardcelebration.tsx"
+    },
+    {
+      "label": "format()",
+      "file_type": "code",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L5",
+      "id": "components_rewardcelebration_format",
+      "community": 5,
+      "norm_label": "format()"
+    },
+    {
+      "label": "RewardCelebration()",
+      "file_type": "code",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L7",
+      "id": "components_rewardcelebration_rewardcelebration",
+      "community": 5,
+      "norm_label": "rewardcelebration()"
+    },
+    {
+      "label": "ApprovalScreen.tsx",
+      "file_type": "code",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L1",
+      "id": "src_components_approvalscreen_tsx",
+      "community": 1,
+      "norm_label": "approvalscreen.tsx"
+    },
+    {
+      "label": "Props",
+      "file_type": "code",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L5",
+      "id": "components_approvalscreen_props",
+      "community": 1,
+      "norm_label": "props"
+    },
+    {
+      "label": "format()",
+      "file_type": "code",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L6",
+      "id": "components_approvalscreen_format",
+      "community": 1,
+      "norm_label": "format()"
+    },
+    {
+      "label": "ApprovalScreen()",
+      "file_type": "code",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L8",
+      "id": "components_approvalscreen_approvalscreen",
+      "community": 1,
+      "norm_label": "approvalscreen()"
+    },
+    {
+      "label": "Achievements.tsx",
+      "file_type": "code",
+      "source_file": "src/components/Achievements.tsx",
+      "source_location": "L1",
+      "id": "src_components_achievements_tsx",
+      "community": 1,
+      "norm_label": "achievements.tsx"
+    },
+    {
+      "label": "MILESTONES",
+      "file_type": "code",
+      "source_file": "src/components/Achievements.tsx",
+      "source_location": "L3",
+      "id": "components_achievements_milestones",
+      "community": 1,
+      "norm_label": "milestones"
+    },
+    {
+      "label": "Achievements()",
+      "file_type": "code",
+      "source_file": "src/components/Achievements.tsx",
+      "source_location": "L10",
+      "id": "components_achievements_achievements",
+      "community": 1,
+      "norm_label": "achievements()"
+    },
+    {
+      "label": "HeroHome.tsx",
+      "file_type": "code",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L1",
+      "id": "src_components_herohome_tsx",
+      "community": 5,
+      "norm_label": "herohome.tsx"
+    },
+    {
+      "label": "Props",
+      "file_type": "code",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L5",
+      "id": "components_herohome_props",
+      "community": 5,
+      "norm_label": "props"
+    },
+    {
+      "label": "format()",
+      "file_type": "code",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L16",
+      "id": "components_herohome_format",
+      "community": 5,
+      "norm_label": "format()"
+    },
+    {
+      "label": "HeroHome()",
+      "file_type": "code",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L18",
+      "id": "components_herohome_herohome",
+      "community": 5,
+      "norm_label": "herohome()"
+    },
+    {
+      "label": "MissionForm.tsx",
+      "file_type": "code",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L1",
+      "id": "src_components_missionform_tsx",
+      "community": 1,
+      "norm_label": "missionform.tsx"
+    },
+    {
+      "label": "Kind",
+      "file_type": "code",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L5",
+      "id": "components_missionform_kind",
+      "community": 1,
+      "norm_label": "kind"
+    },
+    {
+      "label": "Draft",
+      "file_type": "code",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L6",
+      "id": "components_missionform_draft",
+      "community": 1,
+      "norm_label": "draft"
+    },
+    {
+      "label": "Props",
+      "file_type": "code",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L7",
+      "id": "components_missionform_props",
+      "community": 1,
+      "norm_label": "props"
+    },
+    {
+      "label": "format()",
+      "file_type": "code",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L8",
+      "id": "components_missionform_format",
+      "community": 1,
+      "norm_label": "format()"
+    },
+    {
+      "label": "MissionForm()",
+      "file_type": "code",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L10",
+      "id": "components_missionform_missionform",
+      "community": 1,
+      "norm_label": "missionform()"
+    },
+    {
+      "label": "EarnCelebration.tsx",
+      "file_type": "code",
+      "source_file": "src/components/EarnCelebration.tsx",
+      "source_location": "L1",
+      "id": "src_components_earncelebration_tsx",
+      "community": 1,
+      "norm_label": "earncelebration.tsx"
+    },
+    {
+      "label": "format()",
+      "file_type": "code",
+      "source_file": "src/components/EarnCelebration.tsx",
+      "source_location": "L4",
+      "id": "components_earncelebration_format",
+      "community": 1,
+      "norm_label": "format()"
+    },
+    {
+      "label": "EarnCelebration()",
+      "file_type": "code",
+      "source_file": "src/components/EarnCelebration.tsx",
+      "source_location": "L6",
+      "id": "components_earncelebration_earncelebration",
+      "community": 1,
+      "norm_label": "earncelebration()"
     },
     {
       "label": "sw.js",
@@ -738,7 +972,7 @@
       "source_file": "public/sw.js",
       "source_location": "L1",
       "id": "public_sw_js",
-      "community": 12,
+      "community": 15,
       "norm_label": "sw.js"
     },
     {
@@ -747,7 +981,7 @@
       "source_file": "public/sw.js",
       "source_location": "L3",
       "id": "public_sw_shell",
-      "community": 12,
+      "community": 15,
       "norm_label": "shell"
     },
     {
@@ -756,7 +990,7 @@
       "source_file": "public/sw.js",
       "source_location": "L6",
       "id": "public_sw_copy",
-      "community": 12,
+      "community": 15,
       "norm_label": "copy"
     },
     {
@@ -765,7 +999,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 6,
+      "community": 8,
       "norm_label": "readme.md"
     },
     {
@@ -774,7 +1008,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "kid_reward_points_readme_kid_reward_points",
-      "community": 6,
+      "community": 8,
       "norm_label": "kid reward points"
     },
     {
@@ -783,7 +1017,7 @@
       "source_file": "README.md",
       "source_location": "L5",
       "id": "kid_reward_points_readme_run_locally",
-      "community": 6,
+      "community": 8,
       "norm_label": "run locally"
     },
     {
@@ -792,7 +1026,7 @@
       "source_file": "README.md",
       "source_location": "L7",
       "id": "kid_reward_points_readme_codeblock_1",
-      "community": 6,
+      "community": 8,
       "norm_label": "code:bash (npm ci)"
     },
     {
@@ -801,7 +1035,7 @@
       "source_file": "README.md",
       "source_location": "L14",
       "id": "kid_reward_points_readme_connect_google_sheets",
-      "community": 6,
+      "community": 8,
       "norm_label": "connect google sheets"
     },
     {
@@ -810,7 +1044,7 @@
       "source_file": "README.md",
       "source_location": "L22",
       "id": "kid_reward_points_readme_checks_and_deployment",
-      "community": 6,
+      "community": 8,
       "norm_label": "checks and deployment"
     },
     {
@@ -819,7 +1053,7 @@
       "source_file": "README.md",
       "source_location": "L24",
       "id": "kid_reward_points_readme_codeblock_2",
-      "community": 6,
+      "community": 8,
       "norm_label": "code:bash (npm test)"
     },
     {
@@ -828,7 +1062,7 @@
       "source_file": "README.md",
       "source_location": "L33",
       "id": "kid_reward_points_readme_current_limits",
-      "community": 6,
+      "community": 8,
       "norm_label": "current limits"
     },
     {
@@ -837,7 +1071,7 @@
       "source_file": "prompts/CODEX_START_HERE.md",
       "source_location": "L1",
       "id": "prompts_codex_start_here_md",
-      "community": 11,
+      "community": 14,
       "norm_label": "codex_start_here.md"
     },
     {
@@ -846,7 +1080,7 @@
       "source_file": "prompts/CODEX_START_HERE.md",
       "source_location": "L1",
       "id": "prompts_codex_start_here_prompt_for_codex",
-      "community": 11,
+      "community": 14,
       "norm_label": "prompt for codex"
     },
     {
@@ -855,7 +1089,7 @@
       "source_file": "prompts/CODEX_START_HERE.md",
       "source_location": "L5",
       "id": "prompts_codex_start_here_execution_order",
-      "community": 11,
+      "community": 14,
       "norm_label": "execution order"
     },
     {
@@ -864,7 +1098,7 @@
       "source_file": "prompts/CODEX_START_HERE.md",
       "source_location": "L12",
       "id": "prompts_codex_start_here_important_product_integrity",
-      "community": 11,
+      "community": 14,
       "norm_label": "important product integrity"
     },
     {
@@ -873,7 +1107,7 @@
       "source_file": "prompts/CODEX_START_HERE.md",
       "source_location": "L18",
       "id": "prompts_codex_start_here_deliverables",
-      "community": 11,
+      "community": 14,
       "norm_label": "deliverables"
     },
     {
@@ -882,7 +1116,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L1",
       "id": "docs_architecture_md",
-      "community": 5,
+      "community": 6,
       "norm_label": "architecture.md"
     },
     {
@@ -891,7 +1125,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L1",
       "id": "docs_architecture_technical_architecture_and_integration",
-      "community": 5,
+      "community": 6,
       "norm_label": "technical architecture and integration"
     },
     {
@@ -900,7 +1134,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L3",
       "id": "docs_architecture_diagram",
-      "community": 5,
+      "community": 6,
       "norm_label": "diagram"
     },
     {
@@ -909,7 +1143,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L4",
       "id": "docs_architecture_codeblock_1",
-      "community": 5,
+      "community": 6,
       "norm_label": "code:block1 (parent/child browser / installed pwa)"
     },
     {
@@ -918,7 +1152,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L15",
       "id": "docs_architecture_authentication_and_scopes",
-      "community": 5,
+      "community": 6,
       "norm_label": "authentication and scopes"
     },
     {
@@ -927,7 +1161,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L22",
       "id": "docs_architecture_google_sheets_api",
-      "community": 5,
+      "community": 6,
       "norm_label": "google sheets api"
     },
     {
@@ -936,7 +1170,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L28",
       "id": "docs_architecture_pwa_github_pages",
-      "community": 5,
+      "community": 6,
       "norm_label": "pwa / github pages"
     },
     {
@@ -945,7 +1179,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L34",
       "id": "docs_architecture_data_boundaries",
-      "community": 5,
+      "community": 6,
       "norm_label": "data boundaries"
     },
     {
@@ -954,7 +1188,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L39",
       "id": "docs_architecture_suggested_structure",
-      "community": 5,
+      "community": 6,
       "norm_label": "suggested structure"
     },
     {
@@ -963,7 +1197,7 @@
       "source_file": "docs/ARCHITECTURE.md",
       "source_location": "L40",
       "id": "docs_architecture_codeblock_2",
-      "community": 5,
+      "community": 6,
       "norm_label": "code:block2 (src/)"
     },
     {
@@ -972,7 +1206,7 @@
       "source_file": "docs/DELIVERY.md",
       "source_location": "L1",
       "id": "docs_delivery_md",
-      "community": 8,
+      "community": 11,
       "norm_label": "delivery.md"
     },
     {
@@ -981,7 +1215,7 @@
       "source_file": "docs/DELIVERY.md",
       "source_location": "L1",
       "id": "docs_delivery_delivery_plan_and_test_checklist",
-      "community": 8,
+      "community": 11,
       "norm_label": "delivery plan and test checklist"
     },
     {
@@ -990,7 +1224,7 @@
       "source_file": "docs/DELIVERY.md",
       "source_location": "L3",
       "id": "docs_delivery_milestones",
-      "community": 8,
+      "community": 11,
       "norm_label": "milestones"
     },
     {
@@ -999,7 +1233,7 @@
       "source_file": "docs/DELIVERY.md",
       "source_location": "L10",
       "id": "docs_delivery_tests",
-      "community": 8,
+      "community": 11,
       "norm_label": "tests"
     },
     {
@@ -1008,7 +1242,7 @@
       "source_file": "docs/DELIVERY.md",
       "source_location": "L18",
       "id": "docs_delivery_google_cloud_prerequisites_human_setup",
-      "community": 8,
+      "community": 11,
       "norm_label": "google cloud prerequisites (human setup)"
     },
     {
@@ -1017,7 +1251,7 @@
       "source_file": "docs/DELIVERY.md",
       "source_location": "L25",
       "id": "docs_delivery_definition_of_done",
-      "community": 8,
+      "community": 11,
       "norm_label": "definition of done"
     },
     {
@@ -1026,7 +1260,7 @@
       "source_file": "docs/SECURITY.md",
       "source_location": "L1",
       "id": "docs_security_md",
-      "community": 9,
+      "community": 12,
       "norm_label": "security.md"
     },
     {
@@ -1035,7 +1269,7 @@
       "source_file": "docs/SECURITY.md",
       "source_location": "L1",
       "id": "docs_security_security_permissions_and_parental_approval",
-      "community": 9,
+      "community": 12,
       "norm_label": "security, permissions and parental approval"
     },
     {
@@ -1044,7 +1278,7 @@
       "source_file": "docs/SECURITY.md",
       "source_location": "L3",
       "id": "docs_security_fundamental_limitation",
-      "community": 9,
+      "community": 12,
       "norm_label": "fundamental limitation"
     },
     {
@@ -1053,7 +1287,7 @@
       "source_file": "docs/SECURITY.md",
       "source_location": "L8",
       "id": "docs_security_biometrics",
-      "community": 9,
+      "community": 12,
       "norm_label": "biometrics"
     },
     {
@@ -1062,7 +1296,7 @@
       "source_file": "docs/SECURITY.md",
       "source_location": "L13",
       "id": "docs_security_google_permissions",
-      "community": 9,
+      "community": 12,
       "norm_label": "google permissions"
     },
     {
@@ -1071,8 +1305,53 @@
       "source_file": "docs/SECURITY.md",
       "source_location": "L19",
       "id": "docs_security_additional_guards",
-      "community": 9,
+      "community": 12,
       "norm_label": "additional guards"
+    },
+    {
+      "label": "DESIGN_SYSTEM.md",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L1",
+      "id": "docs_design_system_md",
+      "community": 7,
+      "norm_label": "design_system.md"
+    },
+    {
+      "label": "Hero Adventure design system",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L1",
+      "id": "docs_design_system_hero_adventure_design_system",
+      "community": 7,
+      "norm_label": "hero adventure design system"
+    },
+    {
+      "label": "Themes and components",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L5",
+      "id": "docs_design_system_themes_and_components",
+      "community": 7,
+      "norm_label": "themes and components"
+    },
+    {
+      "label": "Motion and accessibility",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L11",
+      "id": "docs_design_system_motion_and_accessibility",
+      "community": 7,
+      "norm_label": "motion and accessibility"
+    },
+    {
+      "label": "Screens",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L17",
+      "id": "docs_design_system_screens",
+      "community": 7,
+      "norm_label": "screens"
     },
     {
       "label": "DESIGN.md",
@@ -1080,7 +1359,7 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
       "id": "docs_design_md",
-      "community": 10,
+      "community": 13,
       "norm_label": "design.md"
     },
     {
@@ -1089,7 +1368,7 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
       "id": "docs_design_visual_and_motion_system",
-      "community": 10,
+      "community": 13,
       "norm_label": "visual and motion system"
     },
     {
@@ -1098,7 +1377,7 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L3",
       "id": "docs_design_theme_engine",
-      "community": 10,
+      "community": 13,
       "norm_label": "theme engine"
     },
     {
@@ -1107,7 +1386,7 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L11",
       "id": "docs_design_screens_and_animations",
-      "community": 10,
+      "community": 13,
       "norm_label": "screens and animations"
     },
     {
@@ -1116,7 +1395,7 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L19",
       "id": "docs_design_accessibility_and_ux",
-      "community": 10,
+      "community": 13,
       "norm_label": "accessibility and ux"
     },
     {
@@ -1125,7 +1404,7 @@
       "source_file": "docs/DESIGN.md",
       "source_location": "L24",
       "id": "docs_design_design_assets",
-      "community": 10,
+      "community": 13,
       "norm_label": "design assets"
     },
     {
@@ -1134,7 +1413,7 @@
       "source_file": "docs/DATA_MODEL.md",
       "source_location": "L1",
       "id": "docs_data_model_md",
-      "community": 7,
+      "community": 9,
       "norm_label": "data_model.md"
     },
     {
@@ -1143,7 +1422,7 @@
       "source_file": "docs/DATA_MODEL.md",
       "source_location": "L1",
       "id": "docs_data_model_google_sheet_data_contract_v1",
-      "community": 7,
+      "community": 9,
       "norm_label": "google sheet data contract (v1)"
     },
     {
@@ -1152,7 +1431,7 @@
       "source_file": "docs/DATA_MODEL.md",
       "source_location": "L3",
       "id": "docs_data_model_target_spreadsheet_tabs",
-      "community": 7,
+      "community": 9,
       "norm_label": "target spreadsheet tabs"
     },
     {
@@ -1161,7 +1440,7 @@
       "source_file": "docs/DATA_MODEL.md",
       "source_location": "L5",
       "id": "docs_data_model_config",
-      "community": 7,
+      "community": 9,
       "norm_label": "`config`"
     },
     {
@@ -1170,7 +1449,7 @@
       "source_file": "docs/DATA_MODEL.md",
       "source_location": "L15",
       "id": "docs_data_model_transactions_header_row",
-      "community": 7,
+      "community": 9,
       "norm_label": "`transactions` (header row)"
     },
     {
@@ -1179,7 +1458,7 @@
       "source_file": "docs/DATA_MODEL.md",
       "source_location": "L27",
       "id": "docs_data_model_badges_optional_later",
-      "community": 7,
+      "community": 9,
       "norm_label": "`badges` (optional later)"
     },
     {
@@ -1188,7 +1467,7 @@
       "source_file": "docs/DATA_MODEL.md",
       "source_location": "L30",
       "id": "docs_data_model_balance",
-      "community": 7,
+      "community": 9,
       "norm_label": "balance"
     },
     {
@@ -1197,7 +1476,7 @@
       "source_file": "docs/DATA_MODEL.md",
       "source_location": "L34",
       "id": "docs_data_model_existing_user_s_legacy_sheet",
-      "community": 7,
+      "community": 9,
       "norm_label": "existing user's legacy sheet"
     },
     {
@@ -1307,6 +1586,51 @@
       "id": "docs_prd_7_acceptance_criteria",
       "community": 4,
       "norm_label": "7. acceptance criteria"
+    },
+    {
+      "label": "Count()",
+      "file_type": "code",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L18",
+      "community": 5,
+      "norm_label": "count()",
+      "id": "components_herohome_count"
+    },
+    {
+      "label": "Themes",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L5",
+      "community": 7,
+      "norm_label": "themes",
+      "id": "docs_design_system_themes"
+    },
+    {
+      "label": "Visual language",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L9",
+      "community": 7,
+      "norm_label": "visual language",
+      "id": "docs_design_system_visual_language"
+    },
+    {
+      "label": "Motion and data",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L13",
+      "community": 7,
+      "norm_label": "motion and data",
+      "id": "docs_design_system_motion_and_data"
+    },
+    {
+      "label": "Future screens",
+      "file_type": "document",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L17",
+      "community": 7,
+      "norm_label": "future screens",
+      "id": "docs_design_system_future_screens"
     }
   ],
   "links": [
@@ -2446,6 +2770,138 @@
       "target": "src_storage_storagekeys"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_components_herohome_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "components_herohome_herohome"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_components_earncelebration_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "components_earncelebration_earncelebration"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_components_rewardcelebration_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "components_rewardcelebration_rewardcelebration"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_components_missionform_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "components_missionform_missionform"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_components_approvalscreen_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "components_approvalscreen_approvalscreen"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_components_achievements_tsx"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_main_tsx",
+      "target": "components_achievements_achievements"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.tsx",
@@ -2681,6 +3137,72 @@
       "target": "src_ledger_ts"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_rewardcelebration_tsx",
+      "target": "src_ledger_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_approvalscreen_tsx",
+      "target": "src_ledger_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Achievements.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_achievements_tsx",
+      "target": "src_ledger_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_herohome_tsx",
+      "target": "src_ledger_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_missionform_tsx",
+      "target": "src_ledger_ts"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EarnCelebration.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_earncelebration_tsx",
+      "target": "src_ledger_ts"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2712,6 +3234,83 @@
       "confidence_score": 1.0,
       "source": "src_mock_ts",
       "target": "src_ledger_transaction"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_rewardcelebration_tsx",
+      "target": "src_ledger_transaction"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_approvalscreen_tsx",
+      "target": "src_ledger_transaction"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Achievements.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_achievements_tsx",
+      "target": "src_ledger_transaction"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_herohome_tsx",
+      "target": "src_ledger_transaction"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EarnCelebration.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_earncelebration_tsx",
+      "target": "src_ledger_transaction"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_missionform_tsx",
+      "target": "src_ledger_validamount"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "components_missionform_missionform",
+      "target": "src_ledger_validamount"
     },
     {
       "relation": "calls",
@@ -3148,6 +3747,327 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "src/components/AnimatedCount.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_animatedcount_tsx",
+      "target": "components_animatedcount_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AnimatedCount.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_animatedcount_tsx",
+      "target": "components_animatedcount_animatedcount"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_rewardcelebration_tsx",
+      "target": "src_components_animatedcount_tsx"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_herohome_tsx",
+      "target": "src_components_animatedcount_tsx"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/AnimatedCount.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_animatedcount_animatedcount",
+      "target": "components_animatedcount_format"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_rewardcelebration_tsx",
+      "target": "components_animatedcount_animatedcount"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_herohome_tsx",
+      "target": "components_animatedcount_animatedcount"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_rewardcelebration_tsx",
+      "target": "components_rewardcelebration_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_rewardcelebration_tsx",
+      "target": "components_rewardcelebration_rewardcelebration"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/RewardCelebration.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_rewardcelebration_rewardcelebration",
+      "target": "components_rewardcelebration_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_approvalscreen_tsx",
+      "target": "components_approvalscreen_props"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_approvalscreen_tsx",
+      "target": "components_approvalscreen_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_approvalscreen_tsx",
+      "target": "components_approvalscreen_approvalscreen"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/ApprovalScreen.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_approvalscreen_approvalscreen",
+      "target": "components_approvalscreen_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Achievements.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_achievements_tsx",
+      "target": "components_achievements_milestones"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/Achievements.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_achievements_tsx",
+      "target": "components_achievements_achievements"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_herohome_tsx",
+      "target": "components_herohome_props"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_herohome_tsx",
+      "target": "components_herohome_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_herohome_tsx",
+      "target": "components_herohome_herohome"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_herohome_tsx",
+      "target": "components_herohome_count"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_herohome_herohome",
+      "target": "components_herohome_format"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/HeroHome.tsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_herohome_count",
+      "target": "components_herohome_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_missionform_tsx",
+      "target": "components_missionform_kind"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_missionform_tsx",
+      "target": "components_missionform_draft"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_missionform_tsx",
+      "target": "components_missionform_props"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_missionform_tsx",
+      "target": "components_missionform_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_missionform_tsx",
+      "target": "components_missionform_missionform"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/MissionForm.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_missionform_missionform",
+      "target": "components_missionform_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EarnCelebration.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_earncelebration_tsx",
+      "target": "components_earncelebration_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EarnCelebration.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_components_earncelebration_tsx",
+      "target": "components_earncelebration_earncelebration"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/EarnCelebration.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "components_earncelebration_earncelebration",
+      "target": "components_earncelebration_format"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "public/sw.js",
       "source_location": "L3",
       "weight": 1.0,
@@ -3468,6 +4388,86 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_system_md",
+      "target": "docs_design_system_hero_adventure_design_system"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_system_hero_adventure_design_system",
+      "target": "docs_design_system_themes_and_components"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_system_hero_adventure_design_system",
+      "target": "docs_design_system_motion_and_accessibility"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_system_hero_adventure_design_system",
+      "target": "docs_design_system_screens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_system_hero_adventure_design_system",
+      "target": "docs_design_system_themes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_system_hero_adventure_design_system",
+      "target": "docs_design_system_visual_language"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_system_hero_adventure_design_system",
+      "target": "docs_design_system_motion_and_data"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/DESIGN_SYSTEM.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_design_system_hero_adventure_design_system",
+      "target": "docs_design_system_future_screens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/DESIGN.md",
       "source_location": "L1",
       "weight": 1.0,
@@ -3697,5 +4697,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "cb42fa1ad764674d588164322745c3eeadcb0948"
+  "built_at_commit": "dbbac1232963322de49b28e1d1a8864aad87ff9c"
 }

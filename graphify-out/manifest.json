@@ -16,8 +16,8 @@
     "hash": "e5e2ab40902f7923593290d4abe51276"
   },
   "/home/ubuntu/apna/kid-reward-points/src/main.tsx": {
-    "mtime": 1791460435.457905,
-    "hash": "0b310c2b95d82bf353be6a83daed67ce"
+    "mtime": 1791478458.5935695,
+    "hash": "12fa077c9b0f9502280a8f720ece2edc"
   },
   "/home/ubuntu/apna/kid-reward-points/src/ledger.ts": {
     "mtime": 1791460363.892294,
@@ -51,9 +51,37 @@
     "mtime": 1791460413.1563597,
     "hash": "e1c48e0fc32791c43937b3d4094ebacf"
   },
+  "/home/ubuntu/apna/kid-reward-points/src/components/AnimatedCount.tsx": {
+    "mtime": 1791478146.198745,
+    "hash": "c6374f0d33baad74fd406ff81119b86d"
+  },
+  "/home/ubuntu/apna/kid-reward-points/src/components/RewardCelebration.tsx": {
+    "mtime": 1791478146.231745,
+    "hash": "6e7b1c1790b0d79c077e65c312afb7a8"
+  },
+  "/home/ubuntu/apna/kid-reward-points/src/components/ApprovalScreen.tsx": {
+    "mtime": 1791478175.633741,
+    "hash": "8107e0a2c84c9016befd12c3e4c2b1b6"
+  },
+  "/home/ubuntu/apna/kid-reward-points/src/components/Achievements.tsx": {
+    "mtime": 1791478146.2338538,
+    "hash": "64dddc30f5026a0cb3780729f7f1d840"
+  },
+  "/home/ubuntu/apna/kid-reward-points/src/components/HeroHome.tsx": {
+    "mtime": 1791478146.2253253,
+    "hash": "b5fae4d0151ae106e3a229a17b502a5d"
+  },
+  "/home/ubuntu/apna/kid-reward-points/src/components/MissionForm.tsx": {
+    "mtime": 1791478175.6317408,
+    "hash": "e32831ad8fece6edbe66df8cca8db483"
+  },
+  "/home/ubuntu/apna/kid-reward-points/src/components/EarnCelebration.tsx": {
+    "mtime": 1791478198.5981138,
+    "hash": "92045d6d4479b1b5f063598f32be88ce"
+  },
   "/home/ubuntu/apna/kid-reward-points/public/sw.js": {
-    "mtime": 1791460773.3806899,
-    "hash": "adfc213d5f784bf8aa794ebdd7810910"
+    "mtime": 1791478319.3264773,
+    "hash": "e05018e56aa4dd64f2a8b28e0f9c8718"
   },
   "/home/ubuntu/apna/kid-reward-points/README.md": {
     "mtime": 1791460435.4583201,
@@ -78,6 +106,10 @@
   "/home/ubuntu/apna/kid-reward-points/docs/SECURITY.md": {
     "mtime": 1791456553.7680147,
     "hash": "4610d7fca9c365db441dbdc1a6a58172"
+  },
+  "/home/ubuntu/apna/kid-reward-points/docs/DESIGN_SYSTEM.md": {
+    "mtime": 1791478400.872663,
+    "hash": "f883abded68ef49e16b0bfbd8bf09cc8"
   },
   "/home/ubuntu/apna/kid-reward-points/docs/DESIGN.md": {
     "mtime": 1791460363.8918722,
@@ -106,5 +138,13 @@
   "/home/ubuntu/apna/kid-reward-points/public/icon-192.png": {
     "mtime": 1791456758.2036653,
     "hash": "ba9b171974e46f42f09715a398c0ca94"
+  },
+  "/home/ubuntu/apna/kid-reward-points/public/hero/mascot.webp": {
+    "mtime": 1791477481.4488387,
+    "hash": "1cecf1f3455b8877040a941cd3424ce0"
+  },
+  "/home/ubuntu/apna/kid-reward-points/public/hero/treasure.webp": {
+    "mtime": 1791478123.5667481,
+    "hash": "dbca96bd4dadafa763f07d76283445c8"
   }
 }
