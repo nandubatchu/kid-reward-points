@@ -18,7 +18,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L1",
       "id": "src_repository_ts",
-      "community": 2,
+      "community": 3,
       "norm_label": "repository.ts"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L14",
       "id": "src_repository_config",
-      "community": 2,
+      "community": 3,
       "norm_label": "config"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L16",
       "id": "src_repository_tokenclient",
-      "community": 2,
+      "community": 3,
       "norm_label": "tokenclient"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L17",
       "id": "src_repository_window",
-      "community": 2,
+      "community": 3,
       "norm_label": "window"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L19",
       "id": "src_repository_loadscript",
-      "community": 2,
+      "community": 3,
       "norm_label": "loadscript()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L20",
       "id": "src_repository_authorize",
-      "community": 2,
+      "community": 3,
       "norm_label": "authorize()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L25",
       "id": "src_repository_disconnect",
-      "community": 2,
+      "community": 3,
       "norm_label": "disconnect()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L26",
       "id": "src_repository_connected",
-      "community": 3,
+      "community": 2,
       "norm_label": "connected()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L27",
       "id": "src_repository_api",
-      "community": 2,
+      "community": 3,
       "norm_label": "api()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L34",
       "id": "src_repository_pickspreadsheet",
-      "community": 2,
+      "community": 3,
       "norm_label": "pickspreadsheet()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L48",
       "id": "src_repository_createspreadsheet",
-      "community": 2,
+      "community": 3,
       "norm_label": "createspreadsheet()"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L94",
       "id": "src_repository_legacydate",
-      "community": 2,
+      "community": 3,
       "norm_label": "legacydate()"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L102",
       "id": "src_repository_parselegacyrows",
-      "community": 2,
+      "community": 3,
       "norm_label": "parselegacyrows()"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L117",
       "id": "src_repository_importlegacyrows",
-      "community": 2,
+      "community": 3,
       "norm_label": "importlegacyrows()"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "src/repository.ts",
       "source_location": "L125",
       "id": "src_repository_safelegacy",
-      "community": 2,
+      "community": 3,
       "norm_label": "safelegacy()"
     },
     {
@@ -324,79 +324,79 @@
       "source_file": "src/main.tsx",
       "source_location": "L1",
       "id": "src_main_tsx",
-      "community": 3,
+      "community": 2,
       "norm_label": "main.tsx"
     },
     {
       "label": "Screen",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L9",
+      "source_location": "L10",
       "id": "src_main_screen",
-      "community": 3,
+      "community": 2,
       "norm_label": "screen"
     },
     {
       "label": "Kind",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L10",
+      "source_location": "L11",
       "id": "src_main_kind",
-      "community": 3,
+      "community": 2,
       "norm_label": "kind"
     },
     {
       "label": "demo",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L18",
+      "source_location": "L20",
       "id": "src_main_demo",
-      "community": 3,
+      "community": 2,
       "norm_label": "demo"
     },
     {
       "label": "App()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L19",
+      "source_location": "L21",
       "id": "src_main_app",
-      "community": 3,
+      "community": 2,
       "norm_label": "app()"
     },
     {
       "label": "message()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L80",
+      "source_location": "L82",
       "id": "src_main_message",
-      "community": 3,
+      "community": 2,
       "norm_label": "message()"
     },
     {
       "label": "Back()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L81",
+      "source_location": "L83",
       "id": "src_main_back",
-      "community": 3,
+      "community": 2,
       "norm_label": "back()"
     },
     {
       "label": "Activity()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L82",
+      "source_location": "L84",
       "id": "src_main_activity",
-      "community": 3,
+      "community": 2,
       "norm_label": "activity()"
     },
     {
       "label": "LegacyPreview()",
       "file_type": "code",
       "source_file": "src/main.tsx",
-      "source_location": "L83",
+      "source_location": "L85",
       "id": "src_main_legacypreview",
-      "community": 3,
+      "community": 2,
       "norm_label": "legacypreview()"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "src/ledger.ts",
       "source_location": "L15",
       "id": "src_ledger_validamount",
-      "community": 3,
+      "community": 2,
       "norm_label": "validamount()"
     },
     {
@@ -553,6 +553,33 @@
       "norm_label": "vite-env.d.ts"
     },
     {
+      "label": "storage.test.ts",
+      "file_type": "code",
+      "source_file": "src/storage.test.ts",
+      "source_location": "L1",
+      "id": "src_storage_test_ts",
+      "community": 2,
+      "norm_label": "storage.test.ts"
+    },
+    {
+      "label": "fakeStorage()",
+      "file_type": "code",
+      "source_file": "src/storage.test.ts",
+      "source_location": "L3",
+      "id": "src_storage_test_fakestorage",
+      "community": 2,
+      "norm_label": "fakestorage()"
+    },
+    {
+      "label": "storage",
+      "file_type": "code",
+      "source_file": "src/storage.test.ts",
+      "source_location": "L9",
+      "id": "src_storage_test_storage",
+      "community": 2,
+      "norm_label": "storage"
+    },
+    {
       "label": "approval.ts",
       "file_type": "code",
       "source_file": "src/approval.ts",
@@ -576,7 +603,7 @@
       "source_file": "src/mock.ts",
       "source_location": "L1",
       "id": "src_mock_ts",
-      "community": 2,
+      "community": 3,
       "norm_label": "mock.ts"
     },
     {
@@ -585,8 +612,44 @@
       "source_file": "src/mock.ts",
       "source_location": "L2",
       "id": "src_mock_mockrows",
-      "community": 2,
+      "community": 3,
       "norm_label": "mockrows"
+    },
+    {
+      "label": "storage.ts",
+      "file_type": "code",
+      "source_file": "src/storage.ts",
+      "source_location": "L1",
+      "id": "src_storage_ts",
+      "community": 2,
+      "norm_label": "storage.ts"
+    },
+    {
+      "label": "storageKeys",
+      "file_type": "code",
+      "source_file": "src/storage.ts",
+      "source_location": "L1",
+      "id": "src_storage_storagekeys",
+      "community": 2,
+      "norm_label": "storagekeys"
+    },
+    {
+      "label": "previousKeys",
+      "file_type": "code",
+      "source_file": "src/storage.ts",
+      "source_location": "L9",
+      "id": "src_storage_previouskeys",
+      "community": 2,
+      "norm_label": "previouskeys"
+    },
+    {
+      "label": "migrateStoredSettings()",
+      "file_type": "code",
+      "source_file": "src/storage.ts",
+      "source_location": "L17",
+      "id": "src_storage_migratestoredsettings",
+      "community": 2,
+      "norm_label": "migratestoredsettings()"
     },
     {
       "label": "pin.ts",
@@ -601,7 +664,7 @@
       "label": "RecordV1",
       "file_type": "code",
       "source_file": "src/pin.ts",
-      "source_location": "L4",
+      "source_location": "L5",
       "id": "src_pin_recordv1",
       "community": 1,
       "norm_label": "recordv1"
@@ -610,7 +673,7 @@
       "label": "hex()",
       "file_type": "code",
       "source_file": "src/pin.ts",
-      "source_location": "L6",
+      "source_location": "L7",
       "id": "src_pin_hex",
       "community": 1,
       "norm_label": "hex()"
@@ -619,7 +682,7 @@
       "label": "bytes()",
       "file_type": "code",
       "source_file": "src/pin.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "id": "src_pin_bytes",
       "community": 1,
       "norm_label": "bytes()"
@@ -628,7 +691,7 @@
       "label": "stored()",
       "file_type": "code",
       "source_file": "src/pin.ts",
-      "source_location": "L8",
+      "source_location": "L9",
       "id": "src_pin_stored",
       "community": 1,
       "norm_label": "stored()"
@@ -637,7 +700,7 @@
       "label": "pinConfigured()",
       "file_type": "code",
       "source_file": "src/pin.ts",
-      "source_location": "L14",
+      "source_location": "L20",
       "id": "src_pin_pinconfigured",
       "community": 1,
       "norm_label": "pinconfigured()"
@@ -646,7 +709,7 @@
       "label": "hashPin()",
       "file_type": "code",
       "source_file": "src/pin.ts",
-      "source_location": "L15",
+      "source_location": "L21",
       "id": "src_pin_hashpin",
       "community": 1,
       "norm_label": "hashpin()"
@@ -655,7 +718,7 @@
       "label": "verifyPin()",
       "file_type": "code",
       "source_file": "src/pin.ts",
-      "source_location": "L20",
+      "source_location": "L26",
       "id": "src_pin_verifypin",
       "community": 1,
       "norm_label": "verifypin()"
@@ -664,7 +727,7 @@
       "label": "savePin()",
       "file_type": "code",
       "source_file": "src/pin.ts",
-      "source_location": "L28",
+      "source_location": "L34",
       "id": "src_pin_savepin",
       "community": 1,
       "norm_label": "savepin()"
@@ -706,13 +769,13 @@
       "norm_label": "readme.md"
     },
     {
-      "label": "Vrishi Points",
+      "label": "Kid Reward Points",
       "file_type": "document",
       "source_file": "README.md",
       "source_location": "L1",
-      "id": "kid_reward_points_readme_vrishi_points",
+      "id": "kid_reward_points_readme_kid_reward_points",
       "community": 6,
-      "norm_label": "vrishi points"
+      "norm_label": "kid reward points"
     },
     {
       "label": "Run locally",
@@ -1147,13 +1210,13 @@
       "norm_label": "prd.md"
     },
     {
-      "label": "Product Requirements Document \u2014 Vrishi Points",
+      "label": "Product Requirements Document — Kid Reward Points",
       "file_type": "document",
       "source_file": "docs/PRD.md",
       "source_location": "L1",
-      "id": "docs_prd_product_requirements_document_vrishi_points",
+      "id": "docs_prd_product_requirements_document_kid_reward_points",
       "community": 4,
-      "norm_label": "product requirements document \u2014 vrishi points"
+      "norm_label": "product requirements document — kid reward points"
     },
     {
       "label": "1. Product vision",
@@ -1192,22 +1255,22 @@
       "norm_label": "4. priority features"
     },
     {
-      "label": "P0 \u2014 launch essentials",
+      "label": "P0 — launch essentials",
       "file_type": "document",
       "source_file": "docs/PRD.md",
       "source_location": "L20",
       "id": "docs_prd_p0_launch_essentials",
       "community": 4,
-      "norm_label": "p0 \u2014 launch essentials"
+      "norm_label": "p0 — launch essentials"
     },
     {
-      "label": "P1 \u2014 experience",
+      "label": "P1 — experience",
       "file_type": "document",
       "source_file": "docs/PRD.md",
       "source_location": "L32",
       "id": "docs_prd_p1_experience",
       "community": 4,
-      "norm_label": "p1 \u2014 experience"
+      "norm_label": "p1 — experience"
     },
     {
       "label": "Explicit non-goals for MVP",
@@ -2350,6 +2413,39 @@
       "target": "src_approval_commitwithpin"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_storage_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_storage_migratestoredsettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "src_main_tsx",
+      "target": "src_storage_storagekeys",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main.tsx",
@@ -2716,6 +2812,59 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "src/storage.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_storage_test_ts",
+      "target": "src_storage_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/storage.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_storage_test_ts",
+      "target": "src_storage_migratestoredsettings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/storage.test.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "src_storage_test_ts",
+      "target": "src_storage_storagekeys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/storage.test.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "src_storage_test_ts",
+      "target": "src_storage_test_fakestorage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/storage.test.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_storage_test_ts",
+      "target": "src_storage_test_storage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "src/approval.ts",
       "source_location": "L3",
       "weight": 1.0,
@@ -2786,6 +2935,36 @@
       "confidence_score": 1.0,
       "source": "src_mock_ts",
       "target": "src_mock_mockrows"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/storage.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "src_storage_ts",
+      "target": "src_storage_storagekeys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/storage.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_storage_ts",
+      "target": "src_storage_previouskeys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/storage.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "src_storage_ts",
+      "target": "src_storage_migratestoredsettings",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2992,9 +3171,19 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "source": "readme_md",
+      "target": "kid_reward_points_readme_kid_reward_points",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "kid_reward_points_readme_vrishi_points"
+      "target": "kid_reward_points_readme_kid_reward_points"
     },
     {
       "relation": "contains",
@@ -3002,9 +3191,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "kid_reward_points_readme_vrishi_points",
-      "target": "kid_reward_points_readme_run_locally"
+      "source": "kid_reward_points_readme_kid_reward_points",
+      "target": "kid_reward_points_readme_run_locally",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3012,9 +3201,9 @@
       "source_file": "README.md",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "kid_reward_points_readme_vrishi_points",
-      "target": "kid_reward_points_readme_connect_google_sheets"
+      "source": "kid_reward_points_readme_kid_reward_points",
+      "target": "kid_reward_points_readme_connect_google_sheets",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3022,9 +3211,9 @@
       "source_file": "README.md",
       "source_location": "L22",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "kid_reward_points_readme_vrishi_points",
-      "target": "kid_reward_points_readme_checks_and_deployment"
+      "source": "kid_reward_points_readme_kid_reward_points",
+      "target": "kid_reward_points_readme_checks_and_deployment",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3032,9 +3221,9 @@
       "source_file": "README.md",
       "source_location": "L33",
       "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "kid_reward_points_readme_vrishi_points",
-      "target": "kid_reward_points_readme_current_limits"
+      "source": "kid_reward_points_readme_kid_reward_points",
+      "target": "kid_reward_points_readme_current_limits",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3050,11 +3239,51 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "kid_reward_points_readme_kid_reward_points",
+      "target": "kid_reward_points_readme_run_locally"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "kid_reward_points_readme_kid_reward_points",
+      "target": "kid_reward_points_readme_connect_google_sheets"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
       "source_location": "L24",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "kid_reward_points_readme_checks_and_deployment",
       "target": "kid_reward_points_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "kid_reward_points_readme_kid_reward_points",
+      "target": "kid_reward_points_readme_checks_and_deployment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "kid_reward_points_readme_kid_reward_points",
+      "target": "kid_reward_points_readme_current_limits"
     },
     {
       "relation": "contains",
@@ -3412,9 +3641,89 @@
       "source_file": "docs/PRD.md",
       "source_location": "L1",
       "weight": 1.0,
+      "source": "docs_prd_md",
+      "target": "docs_prd_product_requirements_document_kid_reward_points",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L1",
+      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_prd_md",
-      "target": "docs_prd_product_requirements_document_vrishi_points"
+      "target": "docs_prd_product_requirements_document_kid_reward_points"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_1_product_vision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_2_users_and_roles",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_3_architecture_hosting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_4_priority_features",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_5_main_user_journeys",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_6_ui_screens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_7_acceptance_criteria",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3423,7 +3732,7 @@
       "source_location": "L4",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "docs_prd_product_requirements_document_vrishi_points",
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
       "target": "docs_prd_1_product_vision"
     },
     {
@@ -3433,7 +3742,7 @@
       "source_location": "L7",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "docs_prd_product_requirements_document_vrishi_points",
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
       "target": "docs_prd_2_users_and_roles"
     },
     {
@@ -3443,48 +3752,8 @@
       "source_location": "L13",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "docs_prd_product_requirements_document_vrishi_points",
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
       "target": "docs_prd_3_architecture_hosting"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_prd_product_requirements_document_vrishi_points",
-      "target": "docs_prd_4_priority_features"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_prd_product_requirements_document_vrishi_points",
-      "target": "docs_prd_5_main_user_journeys"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_prd_product_requirements_document_vrishi_points",
-      "target": "docs_prd_6_ui_screens"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_prd_product_requirements_document_vrishi_points",
-      "target": "docs_prd_7_acceptance_criteria"
     },
     {
       "relation": "contains",
@@ -3515,7 +3784,48 @@
       "confidence_score": 1.0,
       "source": "docs_prd_4_priority_features",
       "target": "docs_prd_explicit_non_goals_for_mvp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_4_priority_features"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_5_main_user_journeys"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_6_ui_screens"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_prd_product_requirements_document_kid_reward_points",
+      "target": "docs_prd_7_acceptance_criteria"
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "ff93ab29fcdbc7ccf61b3b859392135f0e4fb153"
 }

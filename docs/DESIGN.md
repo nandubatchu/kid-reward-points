@@ -3,7 +3,7 @@
 ## Theme engine
 Build theme tokens independently from business logic. Provide at least two themes in Settings:
 
-1. **OG-inspired Hero** (default for Vrishi): generic cinematic Telugu action-film atmosphere, inky navy surfaces, electric cyan highlights, gold coin glow, coral/red redemption accents, confident fun star hero mascot, decorative **stylized toy/graphic katana motif** (e.g., sheathed silhouette, slash-shaped transitions, motion trails). **No actor likenesses, no official OG art/logos, no violent imagery, and no weapon-use interaction.** Keep kid-friendly, legible, and not frightening.
+1. **OG-inspired Hero** (default theme): generic cinematic Telugu action-film atmosphere, inky navy surfaces, electric cyan highlights, gold coin glow, coral/red redemption accents, confident fun star hero mascot, decorative **stylized toy/graphic katana motif** (e.g., sheathed silhouette, slash-shaped transitions, motion trails). **No actor likenesses, no official OG art/logos, no violent imagery, and no weapon-use interaction.** Keep kid-friendly, legible, and not frightening.
 2. **Soft & Friendly**: mint, peach, lavender, sunshine yellow, light surfaces, same information architecture.
 
 Themes must be swappable without data changes and should honor contrast requirements.

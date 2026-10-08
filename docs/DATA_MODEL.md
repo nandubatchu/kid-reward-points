@@ -6,7 +6,7 @@
 | key | value |
 |---|---|
 | schema_version | 1 |
-| child_name | Vrishi |
+| child_name | Kid |
 | points_per_rupee | 1 |
 | opening_balance | 0 |
 | theme | hero |

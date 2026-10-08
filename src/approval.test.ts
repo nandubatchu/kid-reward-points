@@ -5,8 +5,8 @@ import type { Repository, Snapshot } from './repository'
 import type { Transaction } from './ledger'
 const data=new Map<string,string>()
 beforeEach(()=>{data.clear();vi.stubGlobal('localStorage',{getItem:(key:string)=>data.get(key)||null,setItem:(key:string,value:string)=>{data.set(key,value)}})})
-const tx:Transaction={id:'test-id',created_at_iso:'2026-10-08T00:00:00Z',type:'EARN',points_delta:5,description:'Helped',actor_label:'Vrishi',approval_method:'parent-confirm-ui',source_client_id:'test',notes:''}
-const snapshot:Snapshot={rows:[tx],opening:0,childName:'Vrishi',allowNegative:false}
+const tx:Transaction={id:'test-id',created_at_iso:'2026-10-08T00:00:00Z',type:'EARN',points_delta:5,description:'Helped',actor_label:'Kid',approval_method:'parent-confirm-ui',source_client_id:'test',notes:''}
+const snapshot:Snapshot={rows:[tx],opening:0,childName:'Kid',allowNegative:false}
 describe('approval gate',()=>{
  it('never calls the repository without a configured and correct PIN',async()=>{
   const commit=vi.fn(async (_transaction:Transaction)=>snapshot)

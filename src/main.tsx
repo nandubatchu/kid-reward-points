@@ -4,15 +4,17 @@ import { DemoRepository, SheetsRepository, authorize, connected, createSpreadshe
 import { balance, newTransaction, validAmount, type Transaction } from './ledger'
 import { pinConfigured, savePin } from './pin'
 import { commitWithPin } from './approval'
+import { migrateStoredSettings, storageKeys } from './storage'
 import './style.css'
 
 type Screen = 'home'|'proposal'|'review'|'success'|'history'|'settings'|'connect'
 type Kind = 'EARN'|'REDEEM'
-const selectedKey='vrishi-sheet-id'
-const selectedNameKey='vrishi-sheet-name'
-const themeKey='vrishi-theme'
-const clientKey='vrishi-client-id'
-const draftKey='vrishi-draft'
+migrateStoredSettings(localStorage)
+const selectedKey=storageKeys.sheet
+const selectedNameKey=storageKeys.sheetName
+const themeKey=storageKeys.theme
+const clientKey=storageKeys.client
+const draftKey=storageKeys.draft
 const clientId=localStorage.getItem(clientKey)||crypto.randomUUID()
 localStorage.setItem(clientKey,clientId)
 const demo=new DemoRepository()
@@ -22,7 +24,7 @@ function App(){
  const [sheet,setSheet]=useState(localStorage.getItem(selectedKey)||'')
  const [snapshot,setSnapshot]=useState<Snapshot|null>(null)
  const [theme,setTheme]=useState(localStorage.getItem(themeKey)||'hero')
- const [childInput,setChildInput]=useState('Vrishi')
+ const [childInput,setChildInput]=useState('Kid')
  const [kind,setKind]=useState<Kind>('EARN')
  const [amount,setAmount]=useState('')
  const [description,setDescription]=useState('')
@@ -40,7 +42,7 @@ function App(){
  const [importTarget,setImportTarget]=useState<{id:string,name:string}|null>(null)
  const [legacyRows,setLegacyRows]=useState<string[][]|null>(null)
  const [importOpening,setImportOpening]=useState('0')
- const [importName,setImportName]=useState('Vrishi')
+ const [importName,setImportName]=useState('Kid')
  const [draftLoaded]=useState(()=>{try{return JSON.parse(localStorage.getItem(draftKey)||'null') as {kind:Kind,amount:string,description:string}|null}catch{return null}})
  useEffect(()=>{document.documentElement.dataset.theme=theme;localStorage.setItem(themeKey,theme)},[theme])
  useEffect(()=>{const update=()=>setOffline(!navigator.onLine);window.addEventListener('online',update);window.addEventListener('offline',update);const visible=()=>{if(document.visibilityState==='visible'&&connected()&&sheet)refresh()};document.addEventListener('visibilitychange',visible);return()=>{window.removeEventListener('online',update);window.removeEventListener('offline',update);document.removeEventListener('visibilitychange',visible)}},[repo,sheet])
@@ -49,7 +51,7 @@ function App(){
  useEffect(()=>{if(screen==='proposal')localStorage.setItem(draftKey,JSON.stringify({kind,amount,description}))},[screen,kind,amount,description])
  useEffect(()=>{if(screen!=='review')setApprovalPin('')},[screen])
  const current=snapshot?balance(snapshot.rows,snapshot.opening):0
- const name=snapshot?.childName||'Vrishi'
+ const name=snapshot?.childName||'Kid'
  const usingDemo=repo===demo
  const needsReconnect=Boolean(sheet&&!connected())
  const showReconnect=needsReconnect&&screen!=='settings'&&screen!=='connect'
@@ -59,12 +61,12 @@ function App(){
  function makeProposal(e:React.FormEvent){e.preventDefault();const points=validAmount(amount);if(!points||!description.trim()){setError('Enter a whole number above zero and a description.');return}if(kind==='REDEEM'&&!snapshot?.allowNegative&&points>current){setError('This reward costs more points than are available.');return}setError('');setPending(newTransaction(kind,points,description,name,clientId));setScreen('review')}
  async function approve(e:React.FormEvent){e.preventDefault();if(!pending||busy||offline)return;await run(async()=>{const enteredPin=approvalPin;setApprovalPin('');const {snapshot:result,approved}=await commitWithPin(repo,pending,enteredPin);setSnapshot(result);setDone(approved);setPending(null);localStorage.removeItem(draftKey);setAmount('');setDescription('');setScreen('success');if('vibrate'in navigator)navigator.vibrate(70)})}
  async function connect(){await run(async()=>{await authorize(Boolean(sheet));if(sheet){const next=new SheetsRepository(sheet);const data=await next.read();setRepo(next);setSnapshot(data);setScreen('home')}else setScreen('connect')})}
- async function choose(){await run(async()=>{if(!connected())await authorize();const file=await pickSpreadsheet();if(sheet&&sheet!==file.id&&!window.confirm('Inspect this different sheet? A compatible sheet will become active; an older sheet will be offered for import preview.'))return;try{const next=new SheetsRepository(file.id);const data=await next.read();activate(file,next,data)}catch(e){if(message(e).includes('does not use the Vrishi Points v1 schema')){setImportTarget(file);setLegacyRows(null);setError('This is not a Vrishi Points v1 sheet. Its data has not changed. You can preview a legacy import into a new sheet.')}else throw e}})}
+ async function choose(){await run(async()=>{if(!connected())await authorize();const file=await pickSpreadsheet();if(sheet&&sheet!==file.id&&!window.confirm('Inspect this different sheet? A compatible sheet will become active; an older sheet will be offered for import preview.'))return;try{const next=new SheetsRepository(file.id);const data=await next.read();activate(file,next,data)}catch(e){if(message(e).includes('does not use the Kid Reward Points v1 schema')){setImportTarget(file);setLegacyRows(null);setError('This is not a Kid Reward Points v1 sheet. Its data has not changed. You can preview a legacy import into a new sheet.')}else throw e}})}
  function activate(file:{id:string,name:string},next:Repository,data:Snapshot){localStorage.setItem(selectedKey,file.id);localStorage.setItem(selectedNameKey,file.name);setSheet(file.id);setFileName(file.name);setRepo(next);setSnapshot(data);setImportTarget(null);setLegacyRows(null);setError('');setScreen('home')}
- async function create(){await run(async()=>{if(sheet&&!window.confirm('Create and switch to a new family sheet on this device?'))return;if(!connected())await authorize();const file=await createSpreadsheet(`${name} Points`,name);const next=new SheetsRepository(file.id);activate(file,next,await next.read())})}
+ async function create(){await run(async()=>{if(sheet&&!window.confirm('Create and switch to a new family sheet on this device?'))return;if(!connected())await authorize();const file=await createSpreadsheet('Kid Reward Points',name);const next=new SheetsRepository(file.id);activate(file,next,await next.read())})}
  function reset(){disconnect();localStorage.removeItem(selectedKey);localStorage.removeItem(selectedNameKey);setSheet('');setFileName('');setRepo(demo);demo.read().then(setSnapshot);setScreen('home')}
  const formatted=(n:number)=>new Intl.NumberFormat('en-IN').format(n)
- return <div className="app"><header className="topbar"><button className="brand" onClick={()=>setScreen('home')} aria-label="Vrishi Points home"><span className="brand-mark">✦</span><span>VRISHI <em>POINTS</em></span></button><span className="status-pill"><span className={usingDemo?'dot demo':'dot'}/>{needsReconnect?'RECONNECT':usingDemo?'DEMO MODE':'GOOGLE SHEET'}</span></header>
+ return <div className="app"><header className="topbar"><button className="brand" onClick={()=>setScreen('home')} aria-label="Kid Reward Points home"><span className="brand-mark">✦</span><span>KID <em>REWARD POINTS</em></span></button><span className="status-pill"><span className={usingDemo?'dot demo':'dot'}/>{needsReconnect?'RECONNECT':usingDemo?'DEMO MODE':'GOOGLE SHEET'}</span></header>
  {offline&&<div className="notice" role="status">You’re offline. You can view this screen, but points can’t be submitted until you reconnect.</div>}
  <main>{error&&<div className="error" role="alert">{error}<button onClick={()=>setError('')} aria-label="Dismiss error">×</button></div>}
  {showReconnect&&<section className="reconnect-card"><span className="big-symbol gold">✦</span><p className="eyebrow">YOUR SHEET IS REMEMBERED</p><h1>Welcome back</h1><p>Reconnect Google to load {fileName||'your family sheet'} and its current points.</p><button className="primary" disabled={busy||offline} onClick={connect}>{busy?'Connecting…':'Reconnect Google Sheet'} <span>→</span></button><p className="reconnect-help">Your points remain in your Google Sheet. This app asks for access again after a page refresh.</p></section>}

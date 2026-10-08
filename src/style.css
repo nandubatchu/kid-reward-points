@@ -11,3 +11,5 @@
 .approval-form{display:grid;gap:10px;margin-top:22px}.approval-form label{font-weight:800}.approval-form input{width:100%;min-height:56px;border-radius:12px;border:1px solid var(--line);background:var(--surface2);color:var(--text);font-size:24px;letter-spacing:.3em;text-align:center}.approval-form input:focus{outline:2px solid var(--cyan);outline-offset:2px}.approval-form .primary{margin-top:8px}.pin-required{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px}.pin-required p{color:var(--muted);font-size:14px}
 
 .connect-help{color:var(--muted);font-size:12px;margin:0 2px 6px}
+
+.brand>span:last-child{white-space:nowrap}@media(max-width:400px){.brand{font-size:13px}.brand-mark{width:30px;height:30px;flex:none}.status-pill{font-size:8px;padding:6px}}

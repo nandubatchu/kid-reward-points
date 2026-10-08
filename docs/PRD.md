@@ -1,4 +1,4 @@
-# Product Requirements Document — Vrishi Points
+# Product Requirements Document — Kid Reward Points
 Version: 0.1 • 2026-10-08
 
 ## 1. Product vision
@@ -8,7 +8,7 @@ A joyful, mobile-first family reward ledger. Kids record good deeds and desired 
 - Parent/guardian: connects a Google account, chooses/creates sheet, oversees points and approves changes.
 - Child: uses an optionally shared device to propose earn/spend entries, view balance and history.
 - MVP one child profile per connected sheet; structure code so multiple children can be added later.
-- App name should be configurable; example profile: **Vrishi**.
+- The app title is **Kid Reward Points**. The child display name is configurable; example profile: **Kid**.
 
 ## 3. Architecture / hosting
 - Static installable PWA hosted on GitHub Pages (HTTPS).

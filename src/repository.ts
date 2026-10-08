@@ -4,7 +4,7 @@ export type Snapshot = { rows: Transaction[], opening: number, childName: string
 export interface Repository { read(): Promise<Snapshot>; commit(tx: Transaction): Promise<Snapshot>; updateChildName(name: string): Promise<Snapshot> }
 export class DemoRepository implements Repository {
   private rows = [...mockRows]
-  private childName = 'Vrishi'
+  private childName = 'Kid'
   async read(): Promise<Snapshot> { return {rows:[...this.rows],opening:0,childName:this.childName,allowNegative:false} }
   async updateChildName(name: string): Promise<Snapshot> { this.childName = name; return this.read() }
   async commit(tx: Transaction): Promise<Snapshot> { await new Promise(resolve => setTimeout(resolve, 550)); if (!this.rows.some(row=>row.id===tx.id)) this.rows.unshift(tx); return this.read() }
@@ -45,7 +45,7 @@ export async function pickSpreadsheet():Promise<{id:string,name:string}> {
     builder.build().setVisible(true)
   })
 }
-export async function createSpreadsheet(name:string,childName='Vrishi'):Promise<{id:string,name:string}> {
+export async function createSpreadsheet(name:string,childName='Kid'):Promise<{id:string,name:string}> {
  const body={properties:{title:name},sheets:[{properties:{title:'Config'}},{properties:{title:'Transactions'}}]}
  const created=await api<{spreadsheetId:string,properties:{title:string}}>(ROOT,{method:'POST',body:JSON.stringify(body)})
  await api(`${ROOT}/${encodeURIComponent(created.spreadsheetId)}/values:batchUpdate`,{method:'POST',body:JSON.stringify({valueInputOption:'RAW',data:[{range:'Config!A1:B6',values:CONFIG.map(([key,value])=>[key,key==='child_name'?childName:value])},{range:'Transactions!A1:I1',values:[HEADERS]}]})})
@@ -63,7 +63,7 @@ export class SheetsRepository implements Repository {
  async read():Promise<Snapshot> {
   const metadata=await api<{sheets?:{properties:{title:string}}[]}>(`${ROOT}/${encodeURIComponent(this.id)}?fields=sheets.properties.title`)
   const titles=new Set(metadata.sheets?.map(sheet=>sheet.properties.title)||[])
-  if(!titles.has('Config')||!titles.has('Transactions'))throw new Error('This sheet does not use the Vrishi Points v1 schema. No data was changed.')
+  if(!titles.has('Config')||!titles.has('Transactions'))throw new Error('This sheet does not use the Kid Reward Points v1 schema. No data was changed.')
   const data=await api<{valueRanges:{values?:string[][]}[]}>(`${ROOT}/${encodeURIComponent(this.id)}/values:batchGet?ranges=Config!A1:B20&ranges=Transactions!A1:I10000`)
   const configRows=data.valueRanges?.[0]?.values||[]
   const rows=data.valueRanges?.[1]?.values||[]
@@ -117,7 +117,7 @@ export function parseLegacyRows(rows:string[][],name:string,client:string):Trans
 export async function importLegacyRows(rows:string[][],name:string,opening:number,client:string):Promise<{id:string,name:string}> {
  if(!Number.isSafeInteger(opening))throw new Error('Opening balance must be a whole number.')
  const transactions=parseLegacyRows(rows,name,client)
- const file=await createSpreadsheet(`${name.trim()} Points (imported)`,name.trim().slice(0,40))
+ const file=await createSpreadsheet('Kid Reward Points (imported)',name.trim().slice(0,40))
  await api(`${ROOT}/${encodeURIComponent(file.id)}/values/Config!B4?valueInputOption=RAW`,{method:'PUT',body:JSON.stringify({values:[[opening]]})})
  if(transactions.length)await api(`${ROOT}/${encodeURIComponent(file.id)}/values/Transactions!A:I:append?valueInputOption=RAW&insertDataOption=INSERT_ROWS`,{method:'POST',body:JSON.stringify({values:transactions.map(toRow)})})
  return file
