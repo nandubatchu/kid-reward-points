@@ -1210,13 +1210,13 @@
       "norm_label": "prd.md"
     },
     {
-      "label": "Product Requirements Document — Kid Reward Points",
+      "label": "Product Requirements Document \u2014 Kid Reward Points",
       "file_type": "document",
       "source_file": "docs/PRD.md",
       "source_location": "L1",
       "id": "docs_prd_product_requirements_document_kid_reward_points",
       "community": 4,
-      "norm_label": "product requirements document — kid reward points"
+      "norm_label": "product requirements document \u2014 kid reward points"
     },
     {
       "label": "1. Product vision",
@@ -1255,22 +1255,22 @@
       "norm_label": "4. priority features"
     },
     {
-      "label": "P0 — launch essentials",
+      "label": "P0 \u2014 launch essentials",
       "file_type": "document",
       "source_file": "docs/PRD.md",
       "source_location": "L20",
       "id": "docs_prd_p0_launch_essentials",
       "community": 4,
-      "norm_label": "p0 — launch essentials"
+      "norm_label": "p0 \u2014 launch essentials"
     },
     {
-      "label": "P1 — experience",
+      "label": "P1 \u2014 experience",
       "file_type": "document",
       "source_file": "docs/PRD.md",
       "source_location": "L32",
       "id": "docs_prd_p1_experience",
       "community": 4,
-      "norm_label": "p1 — experience"
+      "norm_label": "p1 \u2014 experience"
     },
     {
       "label": "Explicit non-goals for MVP",
@@ -2419,9 +2419,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main_tsx",
-      "target": "src_storage_ts",
-      "confidence_score": 1.0
+      "target": "src_storage_ts"
     },
     {
       "relation": "imports",
@@ -2430,9 +2430,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main_tsx",
-      "target": "src_storage_migratestoredsettings",
-      "confidence_score": 1.0
+      "target": "src_storage_migratestoredsettings"
     },
     {
       "relation": "imports",
@@ -2441,9 +2441,9 @@
       "source_file": "src/main.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_main_tsx",
-      "target": "src_storage_storagekeys",
-      "confidence_score": 1.0
+      "target": "src_storage_storagekeys"
     },
     {
       "relation": "contains",
@@ -2815,9 +2815,9 @@
       "source_file": "src/storage.test.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_storage_test_ts",
-      "target": "src_storage_ts",
-      "confidence_score": 1.0
+      "target": "src_storage_ts"
     },
     {
       "relation": "imports",
@@ -2826,9 +2826,9 @@
       "source_file": "src/storage.test.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_storage_test_ts",
-      "target": "src_storage_migratestoredsettings",
-      "confidence_score": 1.0
+      "target": "src_storage_migratestoredsettings"
     },
     {
       "relation": "imports",
@@ -2837,9 +2837,9 @@
       "source_file": "src/storage.test.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_storage_test_ts",
-      "target": "src_storage_storagekeys",
-      "confidence_score": 1.0
+      "target": "src_storage_storagekeys"
     },
     {
       "relation": "contains",
@@ -2847,9 +2847,9 @@
       "source_file": "src/storage.test.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_storage_test_ts",
-      "target": "src_storage_test_fakestorage",
-      "confidence_score": 1.0
+      "target": "src_storage_test_fakestorage"
     },
     {
       "relation": "contains",
@@ -2857,9 +2857,9 @@
       "source_file": "src/storage.test.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_storage_test_ts",
-      "target": "src_storage_test_storage",
-      "confidence_score": 1.0
+      "target": "src_storage_test_storage"
     },
     {
       "relation": "imports_from",
@@ -2942,9 +2942,9 @@
       "source_file": "src/storage.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_storage_ts",
-      "target": "src_storage_storagekeys",
-      "confidence_score": 1.0
+      "target": "src_storage_storagekeys"
     },
     {
       "relation": "contains",
@@ -2952,9 +2952,9 @@
       "source_file": "src/storage.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_storage_ts",
-      "target": "src_storage_previouskeys",
-      "confidence_score": 1.0
+      "target": "src_storage_previouskeys"
     },
     {
       "relation": "contains",
@@ -2962,9 +2962,9 @@
       "source_file": "src/storage.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_storage_ts",
-      "target": "src_storage_migratestoredsettings",
-      "confidence_score": 1.0
+      "target": "src_storage_migratestoredsettings"
     },
     {
       "relation": "contains",
@@ -3171,69 +3171,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "readme_md",
-      "target": "kid_reward_points_readme_kid_reward_points",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "readme_md",
       "target": "kid_reward_points_readme_kid_reward_points"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "kid_reward_points_readme_kid_reward_points",
-      "target": "kid_reward_points_readme_run_locally",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L14",
-      "weight": 1.0,
-      "source": "kid_reward_points_readme_kid_reward_points",
-      "target": "kid_reward_points_readme_connect_google_sheets",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L22",
-      "weight": 1.0,
-      "source": "kid_reward_points_readme_kid_reward_points",
-      "target": "kid_reward_points_readme_checks_and_deployment",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L33",
-      "weight": 1.0,
-      "source": "kid_reward_points_readme_kid_reward_points",
-      "target": "kid_reward_points_readme_current_limits",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "kid_reward_points_readme_run_locally",
-      "target": "kid_reward_points_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -3259,16 +3199,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "README.md",
-      "source_location": "L24",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "kid_reward_points_readme_checks_and_deployment",
-      "target": "kid_reward_points_readme_codeblock_2"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "README.md",
       "source_location": "L22",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3284,6 +3214,26 @@
       "confidence_score": 1.0,
       "source": "kid_reward_points_readme_kid_reward_points",
       "target": "kid_reward_points_readme_current_limits"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "kid_reward_points_readme_run_locally",
+      "target": "kid_reward_points_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "kid_reward_points_readme_checks_and_deployment",
+      "target": "kid_reward_points_readme_codeblock_2"
     },
     {
       "relation": "contains",
@@ -3641,89 +3591,9 @@
       "source_file": "docs/PRD.md",
       "source_location": "L1",
       "weight": 1.0,
-      "source": "docs_prd_md",
-      "target": "docs_prd_product_requirements_document_kid_reward_points",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L1",
-      "weight": 1.0,
       "confidence_score": 1.0,
       "source": "docs_prd_md",
       "target": "docs_prd_product_requirements_document_kid_reward_points"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "docs_prd_product_requirements_document_kid_reward_points",
-      "target": "docs_prd_1_product_vision",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "docs_prd_product_requirements_document_kid_reward_points",
-      "target": "docs_prd_2_users_and_roles",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L13",
-      "weight": 1.0,
-      "source": "docs_prd_product_requirements_document_kid_reward_points",
-      "target": "docs_prd_3_architecture_hosting",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "docs_prd_product_requirements_document_kid_reward_points",
-      "target": "docs_prd_4_priority_features",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L41",
-      "weight": 1.0,
-      "source": "docs_prd_product_requirements_document_kid_reward_points",
-      "target": "docs_prd_5_main_user_journeys",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L50",
-      "weight": 1.0,
-      "source": "docs_prd_product_requirements_document_kid_reward_points",
-      "target": "docs_prd_6_ui_screens",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L61",
-      "weight": 1.0,
-      "source": "docs_prd_product_requirements_document_kid_reward_points",
-      "target": "docs_prd_7_acceptance_criteria",
-      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3754,36 +3624,6 @@
       "confidence_score": 1.0,
       "source": "docs_prd_product_requirements_document_kid_reward_points",
       "target": "docs_prd_3_architecture_hosting"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L20",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_prd_4_priority_features",
-      "target": "docs_prd_p0_launch_essentials"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_prd_4_priority_features",
-      "target": "docs_prd_p1_experience"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "docs/PRD.md",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "docs_prd_4_priority_features",
-      "target": "docs_prd_explicit_non_goals_for_mvp"
     },
     {
       "relation": "contains",
@@ -3824,8 +3664,38 @@
       "confidence_score": 1.0,
       "source": "docs_prd_product_requirements_document_kid_reward_points",
       "target": "docs_prd_7_acceptance_criteria"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_prd_4_priority_features",
+      "target": "docs_prd_p0_launch_essentials"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_prd_4_priority_features",
+      "target": "docs_prd_p1_experience"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/PRD.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "docs_prd_4_priority_features",
+      "target": "docs_prd_explicit_non_goals_for_mvp"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "ff93ab29fcdbc7ccf61b3b859392135f0e4fb153"
+  "built_at_commit": "cb42fa1ad764674d588164322745c3eeadcb0948"
 }
